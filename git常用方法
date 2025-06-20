@@ -1,0 +1,9 @@
+git分布式版本控制工具
+1.为常用命令指令配置别名
+  a.打开用户目录，创建.bashrc文件
+     部分window系统不允许用户创建点号开头的文件,可以打开gitBash执行touch ~/.bashrc
+  b.在.bashrc文件中输入如下内容：
+     #用于输出git提交日志
+      alias git-log='git log --pretty=oneline --all --graph --abbrev-commit'
+     #用于输出当前目录所有文件及基本信息
+  c.打开gitBash,执行 source ~/.bashrc
